@@ -38,3 +38,7 @@ function imprimir(numeroDNI){
 function dniCompleto(numeroDni){
     imprimir(numeroDni);
 }
+
+var numeroDNI = Number(prompt('Ingresa el número de DNI, por favor.'));
+
+dniCompleto(numeroDNI);
